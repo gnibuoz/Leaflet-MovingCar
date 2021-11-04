@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <script type="text/javascript" src="./libs/leaflet/leaflet.js"></script>
+    <script
+      type="text/javascript"
+      src="./libs/leaflet/leaflet-compass.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./libs/leaflet/plugins/L.Control.Zoomslider.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./libs/leaflet/plugins/leaflet-geoman.min.js"
+    ></script>
+
+    <link rel="stylesheet" href="./libs/leaflet/leaflet.css" />
+    <link
+      rel="stylesheet"
+      href="./libs/leaflet/plugins/L.Control.Zoomslider.css"
+    />
+
+
+    <script src="./libs/leaflet/plugins/Leaflet.StyleEditor/javascript/Leaflet.StyleEditor.min.js"></script>
+    <link rel="stylesheet" href="./libs/leaflet/plugins/Leaflet.StyleEditor/css/Leaflet.StyleEditor.min.css">
+
+    <link rel="stylesheet" href="./libs/leaflet/leaflet-compass.min.css" />
+    <link rel="stylesheet" href="./libs/leaflet/plugins/leaflet-geoman.css" />
+    <style type="text/css">
+      /**
+     临时添加用于修复作战样式无法相应鼠标事件
+    */
+      /* div.leaflet-overlay-pane > :first-child{
+            z-index: 800;
+        } */
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+    <title>演示程序</title>
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <script src="src/main.js"></script>
+  </body>
+</html>

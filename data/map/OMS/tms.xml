@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<tilemap tilemapservice="http://tms.osgeo.org/1.0.0" version="1.0.0">
+  <title>default</title>
+  <abstract></abstract>
+  <srs>EPSG:900913</srs>
+  <vsrs></vsrs>
+  <boundingbox maxx="20037508.3427892510000000000000000" maxy="20037508.3427892510000000000000000" minx="-20037508.3427892510000000000000000" miny="-20037508.3427892510000000000000000" />
+  <origin x="-20037508.3427892510000000000000000" y="-20037508.3427892510000000000000000" />
+  <tileformat extension="png" height="256" mime-type="image/png" width="256" />
+  <tilesets profile="global-mercator">
+    <tileset href="" order="0" units-per-pixel="156543.0339280410300000000000000" />
+    <tileset href="" order="1" units-per-pixel="78271.5169640205130000000000000" />
+    <tileset href="" order="2" units-per-pixel="39135.7584820102570000000000000" />
+    <tileset href="" order="3" units-per-pixel="19567.8792410051280000000000000" />
+    <tileset href="" order="4" units-per-pixel="9783.9396205025641000000000000" />
+    <tileset href="" order="5" units-per-pixel="4891.9698102512821000000000000" />
+    <tileset href="" order="6" units-per-pixel="2445.9849051256410000000000000" />
+    <tileset href="" order="7" units-per-pixel="1222.9924525628205000000000000" />
+    <tileset href="" order="8" units-per-pixel="611.4962262814102600000000000" />
+    <tileset href="" order="9" units-per-pixel="305.7481131407051300000000000" />
+    <tileset href="" order="10" units-per-pixel="152.8740565703525600000000000" />
+    <tileset href="" order="11" units-per-pixel="76.4370282851762820000000000" />
+    <tileset href="" order="12" units-per-pixel="38.2185141425881410000000000" />
+    <tileset href="" order="13" units-per-pixel="19.1092570712940710000000000" />
+    <tileset href="" order="14" units-per-pixel="9.5546285356470353000000000" />
+    <tileset href="" order="15" units-per-pixel="4.7773142678235176000000000" />
+    <tileset href="" order="16" units-per-pixel="2.3886571339117588000000000" />
+    <tileset href="" order="17" units-per-pixel="1.1943285669558794000000000" />
+    <tileset href="" order="18" units-per-pixel="0.5971642834779397100000000" />
+    <tileset href="" order="19" units-per-pixel="0.2985821417389698500000000" />
+    <tileset href="" order="20" units-per-pixel="0.1492910708694849300000000" />
+    <tileset href="" order="21" units-per-pixel="0.0746455354347424630000000" />
+    <tileset href="" order="22" units-per-pixel="0.0373227677173712320000000" />
+  </tilesets>
+</tilemap>
